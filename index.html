@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Drag & Drop</title>
+  </head>
+  <body>
+    <div>
+
+      <div class="row">
+          <div class="col-header start">Upcoming</div>
+          <div class="col-header progress">In Progress</div>
+          <div class="col-header done">Done</div>
+      </div>
+
+      <div class="row" id="task1">
+        <div class="placeholder">
+          <div class="item" draggable="true">1) Task name</div>
+        </div>
+        <div class="placeholder"></div>
+        <div class="placeholder"></div>
+      </div>
+
+      <div class="row" id="task2">
+        <div class="placeholder">
+          <div class="item" draggable="true">2) Task name</div>
+        </div>
+        <div class="placeholder"></div>
+        <div class="placeholder"></div>
+      </div>
+
+      <div class="row" id="task3">
+        <div class="placeholder">
+          <div class="item" draggable="true">3) Task name</div>
+        </div>
+        <div class="placeholder"></div>
+        <div class="placeholder"></div>
+      </div>
+      
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
